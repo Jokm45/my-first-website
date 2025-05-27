@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Unity 기반 점프킹 스타일 2D 게임</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        h1 a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .title-bar {
+            text-align: center;
+            font-size: 24px;
+            padding: 10px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 40px 80px;
+        }
+
+        .section {
+            max-width: 900px;
+            margin: 0 auto 50px;
+        }
+
+        .section h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section ul {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .section img {
+            display: block;
+            margin: 30px auto;
+            max-width: 100%;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 50px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="index.html">PORTFOLIO</a></h1>
+    <div class="title-bar">Unity 기반 게임 개발 프로젝트</div>
+    <div class="container">
+        <div class="section">
+            <h2>🧩 프로젝트 개요</h2>
+            <p>기존에 존재하는 2D 게임인 점프킹(Jump King)을 Unity로 직접 구현한 팀 프로젝트입니다.<br>
+               원작의 핵심 요소인 점프 충전 시스템과 벽 충돌 반응을 재현했으며, 여기에 새로운 기능을 더해 변형하여 개발한 프로젝트입니다.
+                <a href="https://github.com/Jokm45/Jump-Master" target="_blank" style="display: inline-flex; align-items: center; height: 30px;">
+                    <img src="GitHub.png" alt="GitHub 아이콘" width="20" style="margin-right: 5px;">GitHub
+                </a>
+            </p>
+        </div>
+        <div class="section">
+            <h2>🛠 추가된 기능</h2>
+            <ul>
+                <li>체크포인트 기능</li>
+                <li>시야가 좁아지는 구간</li>
+                <li>부서지는 블록</li>
+                <li>아이템 시스템</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>🖼️ 게임 스크린샷</h2>
+            <img src="game_screenshot.png" alt="게임 스크린샷">
+        </div>
+        <a class="back-link" href="index.html">← 메인으로 돌아가기</a>
+    </div>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://my-website-3yzzzzjctl.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</body>
+</html>
