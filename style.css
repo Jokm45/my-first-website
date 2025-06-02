@@ -79,7 +79,6 @@ h1 a {
     font-size: 20px;
 }
 
-/* project.html 전용 */
 .section {
     max-width: 900px;
     margin: 0 auto 50px;
@@ -112,7 +111,6 @@ h1 a {
     font-weight: bold;
 }
 
-/* videos.html 전용 */
 .section h2.video-title {
     margin-bottom: 30px;
 }
