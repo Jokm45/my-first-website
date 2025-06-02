@@ -1,0 +1,138 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-bar {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.container {
+    padding: 40px 80px;
+}
+
+/* index.html 전용 */
+.container.index {
+    display: flex;
+    min-height: 670px;
+    padding: 30px 60px;
+}
+
+.profile {
+    width: 250px;
+    border-right: 2px solid black;
+    padding-right: 20px;
+    line-height: 2;
+}
+
+.profile h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.content {
+    flex: 1;
+    padding-left: 40px;
+    margin-left: 30px;
+}
+
+.content h2 {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.post-list {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.post {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    width: 1000px;
+}
+
+.post-title {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* project.html 전용 */
+.section {
+    max-width: 900px;
+    margin: 0 auto 50px;
+}
+
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.section p,
+.section ul {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.section img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* videos.html 전용 */
+.section h2.video-title {
+    margin-bottom: 30px;
+}
+
+.video {
+    margin-bottom: 50px;
+}
+
+.video strong {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.video strong a {
+    color: black;
+}
+
+.video iframe {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
